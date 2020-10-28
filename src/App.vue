@@ -31,8 +31,8 @@ export default {
   },
   methods: {
     checkPIN() {
-      if (this.num1 == "7" && this.num2 == "2" && this.num3 == "4" && this.num4 == "5") {
-        this.message = "Congratulations! You can go to the next one!"
+      if (this.num1 == "9" && this.num2 == "8" && this.num3 == "2" && this.num4 == "5") {
+        this.message = "Go down and take your Gift larhhh, haiyaaa"
       }
       else {
         this.message = "INCORRECT! Try again."
@@ -44,7 +44,7 @@ export default {
 
 <style>
 body {
-  background-color: darkslategrey;
+  background-color: #ffb0b0;
 }
 
 #app {
@@ -52,7 +52,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: white;
+  color: black;
   margin-top: 60px;
 }
 
