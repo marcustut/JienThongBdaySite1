@@ -59,7 +59,7 @@ body {
 .pin-box {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   margin: auto;
   width: 25%;
   padding: 10px;
